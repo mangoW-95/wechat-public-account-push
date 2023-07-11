@@ -59,7 +59,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6jGKOKrVBNQH1qs42b409Wg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'TqMAqOsn3m3zlL9oVpBUWVFPvyG_O7gRxoOKVgFedak',
+      useTemplateId: 'v4EJWkMcEJr8wJxUF4EQ0gvVv1oqxq3UBw11G79Qpd0',
       // 所在省份
       province: '北京',
       // 所在城市
@@ -151,43 +151,101 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
+      // 想要发送的人的名字
       name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oCjxW6qHjLTtwKUy4JXx4DVbnbJg',
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: 'v4EJWkMcEJr8wJxUF4EQ0gvVv1oqxq3UBw11G79Qpd0',
+      // 所在省份
+      province: '北京',
+      // 所在城市
+      city: '北京',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '07-27',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '我宝', year: '1995', date: '07-27',
+        }
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-07-09' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-07-09' }
+      ],
+      // 课程表相关配置
+      // 如果courseSchedule不存在或者为空（null）则认为没有课程
+      // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
+      // 如果courseSchedule是一个对象（如下面所示）
+      courseSchedule: {
+        // 单双周的基准
+        benchmark: {
+          // 这里设置一个日期，用来作为判断课表是否单双周的依据
+          date: '2022-09-23',
+          // 该日期是否为单周
+          isOdd: true
+        },
+        // 课表
+        courses: {
+          // 单周课表
+          // 从星期一到星期日（星期六和星期日的课表数组可不填写）
+          odd: [
+            // 例子，周一的课表
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周二
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周三
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周四
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周五
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周六
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ],
+            // 周日
+            [
+              '08:00-09:35 高等数学',
+              '09:50-11:25 高等物理'
+            ]
+          ],
+          // 双周课表
+          even: [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        }
+      },
     }
     // 你可以不断按格式往下增加
     // ...
