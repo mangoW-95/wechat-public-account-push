@@ -154,9 +154,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆2',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '测试oCjxW6mkM_wSvi7TwNS4d4bKh87U',
+      id: 'oCjxW6mkM_wSvi7TwNS4d4bKh87U',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'v4EJWkMcEJr8wJxUF4EQ0gvVv1oqxq3UBw11G79Qpd0',
+      useTemplateId: 'PDVqEP3Hwdt2Ss9QiNaKF9kDHkAAWNBFKzOJGN1UE0w',
       // 所在省份
       province: '北京',
       // 所在城市
