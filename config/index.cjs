@@ -18,7 +18,7 @@ const USER_CONFIG = {
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
-
+    
     /** 每日N句 */
     // 金山每日一句
     CIBA: false,
@@ -63,7 +63,7 @@ const USER_CONFIG = {
       // 所在省份
       province: '北京',
       // 所在城市
-      city: '北京',
+      city: '海淀区',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -156,11 +156,11 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6mkM_wSvi7TwNS4d4bKh87U',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'PDVqEP3Hwdt2Ss9QiNaKF9kDHkAAWNBFKzOJGN1UE0w',
+      useTemplateId: '测试PDVqEP3Hwdt2Ss9QiNaKF9kDHkAAWNBFKzOJGN1UE0w',
       // 所在省份
       province: '北京',
       // 所在城市
-      city: '北京',
+      city: '海淀区',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
