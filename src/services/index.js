@@ -154,10 +154,11 @@ export const getCIBA = async () => {
  * @returns
  */
 export const getHolidaytts = async () => {
-  if (config.SWITCH && config.SWITCH.holidaytts === false) {
-    return null
-  }
-
+  /**
+  *if (config.SWITCH && config.SWITCH.holidaytts === false) {
+  *  return null
+  *}
+  */
   const url = 'https://wangxinleo.cn/api/wx-push/holiday/getHolidaytts'
   const res = await axios.get(url).catch((err) => err)
 
@@ -629,7 +630,8 @@ export const getAggregatedData = async () => {
     note: noteCh = DEFAULT_OUTPUT.noteCh,
   } = await getCIBA()
   // 获取下一休息日
-  const holidaytts = await getHolidaytts() || DEFAULT_OUTPUT.holidaytts
+  const holidaytts = await getHolidaytts() 
+  //|| DEFAULT_OUTPUT.holidaytts
   // 获取每日一言
   const {
     hitokoto: oneTalk = DEFAULT_OUTPUT.oneTalk,
