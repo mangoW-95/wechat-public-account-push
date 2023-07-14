@@ -61,9 +61,9 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'Ty7uI1z2-Ia4XHczbxVGSxx24UGoPI8Fokah6fK5N-Q',
       // 所在省份
-      province: '北京',
+      province: '河南省',
       // 所在城市
-      city: '海淀区',
+      city: '河南',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
