@@ -59,11 +59,11 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6jGKOKrVBNQH1qs42b409Wg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'Ty7uI1z2-Ia4XHczbxVGSxx24UGoPI8Fokah6fK5N-Q',
+      useTemplateId: 'bKOSjph3xKazRzv964d20Cj3ZkIwo3P7I-E8QSspIhU',
       // 所在省份
-      province: '河南',
+      province: '北京市',
       // 所在城市
-      city: '河南',
+      city: '海淀区',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '07-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -82,7 +82,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-07-09' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2023-07-09' }
+        { keyword: 'marry_day', date: '2023-07-14' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
