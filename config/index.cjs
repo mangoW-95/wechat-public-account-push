@@ -59,7 +59,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6jGKOKrVBNQH1qs42b409Wg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '4QCeM3PRoUVEnkutqcMQzWVk1oxo4HWOEU3esdHQEc0',
+      useTemplateId: 'i4WzsRWy8IiqTWA0BtmeQSp7Ti3CIOvIaKZIPdw6NJ4',
       // 所在省份
       province: '北京市',
       // 所在城市
@@ -156,7 +156,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '测试oCjxW6mkM_wSvi7TwNS4d4bKh87U',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '4QCeM3PRoUVEnkutqcMQzWVk1oxo4HWOEU3esdHQEc0',
+      useTemplateId: 'i4WzsRWy8IiqTWA0BtmeQSp7Ti3CIOvIaKZIPdw6NJ4',
       // 所在省份
       province: '北京',
       // 所在城市
@@ -351,7 +351,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '🥰嘿嘿，在线活捉一只仙女，村长快点进详情来看看😜' },
+    { keyword: 'encourage_oneself', contents: '' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
