@@ -8,7 +8,7 @@ const USER_CONFIG = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -154,7 +154,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆2',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '测试oCjxW6mkM_wSvi7TwNS4d4bKh87U',
+      id: 'oCjxW6mkM_wSvi7TwNS4d4bKh87U',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'gnffnJ2SPk9oRRSUt4lDSEP-YBsO4X85BZRi2q65AJY',
       // 所在省份
