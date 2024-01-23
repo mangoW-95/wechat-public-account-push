@@ -59,7 +59,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6jGKOKrVBNQH1qs42b409Wg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'VQr4j1oOx4_PfdgQ-gVYal2axhSn506NDLPr4eXooSw',
+      useTemplateId: 'ZxJVn71IE0rVVEIIHWUKKYuMH7sDeYU_Rfku9pCK4g4',
       // 所在省份
       province: '北京市',
       // 所在城市
@@ -82,7 +82,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-07-09' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2024-01-15' }
+        { keyword: 'marry_day', date: '2024-01-22' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -156,7 +156,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6mkM_wSvi7TwNS4d4bKh87U',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'VQr4j1oOx4_PfdgQ-gVYal2axhSn506NDLPr4eXooSw',
+      useTemplateId: 'ZxJVn71IE0rVVEIIHWUKKYuMH7sDeYU_Rfku9pCK4g4',
       // 所在省份
       province: '北京',
       // 所在城市
@@ -179,7 +179,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-07-09' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2024-01-15' }
+        { keyword: 'marry_day', date: '2024-01-22' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
