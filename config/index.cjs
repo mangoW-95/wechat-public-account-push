@@ -68,7 +68,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6jGKOKrVBNQH1qs42b409Wg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'qKD7Ksk-VuMv89aq7wDToPzucAD7erxkKdvB3cZC1BA',
+      useTemplateId: 'klSodMy8UuUJRP1eq8iUvK9Eu8mV3K5uLXg9Sw7x5YY',
       // 所在省份
       province: '北京市',
       // 所在城市
@@ -167,7 +167,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCjxW6mkM_wSvi7TwNS4d4bKh87U-test',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'qKD7Ksk-VuMv89aq7wDToPzucAD7erxkKdvB3cZC1BA',
+      useTemplateId: 'klSodMy8UuUJRP1eq8iUvK9Eu8mV3K5uLXg9Sw7x5YY',
       // 所在省份
       province: '北京',
       // 所在城市
@@ -363,7 +363,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '' },
+    { keyword: 'encourage_oneself', contents: '测试一下🐷🐷' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
